@@ -1,6 +1,6 @@
-.rvmrc
-.bundle/
+*.gem
+.bundle
 .redcar/
-.specjour
-.project
-.profile
+Gemfile.lock
+pkg/*
+
