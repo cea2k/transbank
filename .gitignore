@@ -3,4 +3,5 @@
 .redcar/
 Gemfile.lock
 pkg/*
+.rvmrc
 

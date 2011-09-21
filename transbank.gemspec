@@ -1,23 +1,24 @@
-# -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
 require "transbank/version"
 
 Gem::Specification.new do |s|
   s.name        = "transbank"
   s.version     = Transbank::VERSION
+  s.platform    = Gem::Platform::RUBY
   s.authors     = ["Carlos E. Alarcón"]
-  s.email       = ["cea2k@hotmail.com"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
-
+  s.email       = ["me@cea2k.com"]
+  s.homepage    = "http://github.com/cea2k/transbank"
+  s.summary     = "Active Merchant Integration with Transbank Webpay"
+  s.description = ""
+  
+  s.required_rubygems_version = ">= 1.3.6"
   s.rubyforge_project = "transbank"
 
-  s.files         = `git ls-files`.split("\n")
-  s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
+  s.files         = Dir["{lib}/**/*.rb", "bin/*", "LICENSE", "*.md"]
+  s.test_files    = Dir["{test,spec,features}/*" ]
+  
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
-
 
   s.add_dependency('activemerchant', '>= 1.17.0')
 end
