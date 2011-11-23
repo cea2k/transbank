@@ -3,6 +3,8 @@ RESUMEN
 
 Integración de Active Merchant con el servisio de pagos Webpay de Transbank
 
+Work In Progress...
+
 
 Usando la Gema
 --------------
