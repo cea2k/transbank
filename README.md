@@ -1,7 +1,9 @@
+AVISO: Repositorio Archivado.
+
 RESUMEN
 -------
 
-Integración de Active Merchant con el servisio de pagos Webpay de Transbank
+Integración de Active Merchant con el servicio de pagos Webpay de Transbank
 
 Work In Progress...
 
